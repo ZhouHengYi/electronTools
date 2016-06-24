@@ -1,0 +1,31 @@
+/* Stop: Normalize.
+/* ---------------------------------------------------------- */
+
+@import "../../bower_components/normalize-css/normalize.css";
+
+/* Patterns: Groups of Styles
+/* ---------------------------------------------------------- */
+
+@import "patterns/global.css";
+@import "patterns/icons.css";
+@import "patterns/forms.css";
+@import "patterns/buttons.css";
+@import "patterns/labels.css";
+@import "patterns/tables.css";
+@import "patterns/checkbox.css";
+
+/* Components: Groups of Patterns
+/* ---------------------------------------------------------- */
+
+@import "components/instance-host.css";
+@import "components/switcher.css";
+@import "components/splitbuttons.css";
+@import "components/edit-blog.css";
+@import "components/preferences.css";
+
+/* Layouts: Groups of Components
+/* ---------------------------------------------------------- */
+
+@import "layouts/loading.css";
+@import "layouts/main.css";
+@import "layouts/flow.css";
